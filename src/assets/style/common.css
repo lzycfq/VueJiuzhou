@@ -1,0 +1,122 @@
+/* CSS Document */
+/* common css*/
+html{
+	font-size: 24px;
+}
+body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "WenQuanYi Micro Hei", sans-serif;
+}
+a, img {
+    -webkit-touch-callout: none !important; /*禁止长按链接与图片弹出菜单*/
+}
+img {
+    display: block;
+    /* width: 100%; */
+}
+html, body {
+    -webkit-user-select: none; /*禁止选中文本*/
+	user-select: none;
+}
+button,input,optgroup,select,textarea {
+    -webkit-appearance:none; /*去掉webkit默认的表单样式*/
+}
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+input::-webkit-input-placeholder {
+    color:#ccc; /*修改webkit中input的planceholder样式*/
+}
+input:focus::-webkit-input-placeholder {
+    color:#f00; /*修改webkit中focus状态下input的planceholder样式*/
+}
+textarea{
+	resize: none !important; /* textarea文本编辑框禁止拖动 */
+}
+
+body {
+    -webkit-text-size-adjust: 100%!important; /*禁止IOS调整字体大小*/
+}
+input::-webkit-input-speech-button {
+    display: none; /*隐藏Android的语音输入按钮*/
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary
+{ 
+    margin:0; padding:0;
+} 
+ul li {
+    list-style: none;
+}
+a { 
+    text-decoration:none;
+}
+
+.el-table th {
+    text-align: center;
+}
+
+.el-menu--horizontal {
+    border-bottom: none;
+    float: right;
+    background: rgba(0, 0, 0, 0);
+}
+.el-menu--horizontal>.el-menu-item.is-active {
+    border-bottom: 2px solid #1DA47B;
+    color: #1DA47B;
+}
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+    border-bottom: 2px solid #1DA47B;
+    color: #1DA47B;
+}
+.el-menu--horizontal>.el-submenu:focus .el-submenu__title {
+    color: #fff;
+}
+.el-menu--horizontal .el-menu-item {
+    color: #fff;
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title {
+    color: #fff;
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+    color: #1DA47B;
+    background: transparent;
+}
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    outline: 0;
+    color: #1DA47B;
+    background: transparent;
+}
+.el-menu--popup-bottom-start {
+    background: #222;
+}
+.el-menu--horizontal .el-menu .el-menu-item {
+    background: #222;
+}
+.el-menu--horizontal .el-menu .el-menu-item.is-active {
+    background: #1DA47B;
+    color: #fff;
+}
+.el-menu--horizontal .el-menu .el-menu-item {
+    color: #fff;
+}
+.el-menu--popup {
+    min-width: 150px;
+}
+
+.el-menu-item {
+    padding: 0;
+}
+.el-menu-item a {
+    padding: 0 20px;
+    display: inline-block;
+    color: #fff;
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+    -o-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: 100%;
+}
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title {
+    padding: 0;
+}
