@@ -120,7 +120,7 @@ export default {
     .footer-bottom {
         text-align: center;
         font-size: 12px;
-        background: #1C1C1C;
+        background: #252525;
         padding: 30px 0;
     }
 </style>
