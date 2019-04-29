@@ -30,7 +30,7 @@ export default {
     },
     methods: {
         getData() {
-            this.$axios.get('/api/express').then(res=>{
+            this.axios.get('/api/express').then(res=>{
                 this.expressData = res.data.data
             })
             .catch(res=>{
